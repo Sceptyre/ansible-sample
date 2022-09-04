@@ -1,0 +1,7 @@
+---
+- name: Get Hostname
+  hosts: all
+
+  tasks:
+  - name: Get Hostname
+    shell: hostname
